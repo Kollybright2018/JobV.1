@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="assets/css/animate.min.css">
 	<link rel="stylesheet" href="assets/css/fontawesome-all.css">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/newstyle.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- Color switcher Alternatives | you can remove this section -->
 	<link rel="stylesheet" type="text/css" href="assets/css/colors/switch.css">
@@ -26,7 +27,7 @@
 
 	<body>
 		<!-- This code is use for color chooser, you can delete -->
-		<div id="switch-color" class="color-switcher">
+		<!-- <div id="switch-color" class="color-switcher">
 			<div class="open"><i class="fas fa-cog"></i></div>
 			<h4>COLOR OPTION</h4>
 			<ul>
@@ -35,19 +36,72 @@
 				<li><a class="color-4" onclick="setActiveStyleSheet('color-4'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
 				<li><a class="color-5" onclick="setActiveStyleSheet('color-5'); return false;" href="#"><i class="fas fa-cog"></i></a> </li>
 			</ul>
-		</div>
+		</div> -->
 		<div class="clearfix"></div>
 
 		<div class="wrapper">
 			<div class="wizard-content-1 pos-flex clearfix">
 				<div class="steps d-inline-block clearfix">
 					<span class="bg-shape"></span>
+
+					<!-- <div class="row justify-content-center">
+						<div class="col-md-10 col-sm-4 my-5">
+							<div class="side-con-inner row d-flex  justify-content-between">
+								<div class="side-con-inner-img col-md-4 col-sm-7">
+									<div class="img-circle-con multisteps-form__progress-btn js-active current">
+										<img src="assets/img/bt1.png" class="rounded-circle"  width="80" alt="">
+									</div>
+								</div>
+
+								<div class="side-con-inner-text col-md-6 col-sm-7 mx-2">
+									<h4 class="text-uppercase">Intership Type</h4>
+									<span class="text-capitalize">Select Intership</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="col-md-10 my-2 col-sm-4 my-5">
+							<div class="side-con-inner row d-flex  justify-content-between">
+								<div class="side-con-inner-img col-md-4 col-sm-7">
+									<div class="img-circle-con">
+										<img src="assets/img/bt2.png" class="rounded-circle"  width="80" alt="">
+									</div>
+								</div>
+
+								<div class="side-con-inner-text col-md-6 col-sm-7 mx-2">
+									<h4 class="text-uppercase">Send Details</h4>
+									<span class="text-capitalize">Job Available</span>
+								</div>
+								
+							</div>
+						</div>
+
+						<div class="col-md-10 my-2 col-sm-4 my-5">
+							<div class="side-con-inner row d-flex  justify-content-between">
+								<div class="side-con-inner-img col-md-4 col-sm-7">
+									<div class="img-circle-con">
+										<img src="assets/img/bt3.png" class="rounded-circle"  width="80" alt="">
+									</div>
+								</div>
+
+								<div class="side-con-inner-text col-md-6 c-sm-7 my-2 mx-2">
+									<h4 class="text-uppercase">Thank You</h4>
+									<span class="text-capitalize">Select Intership</span>
+								</div>
+								
+							</div>
+						</div>
+					
+					</div> -->
+
+
 					<ul class="tablist multisteps-form__progress">
 						<li class="multisteps-form__progress-btn js-active current">
 							<div class="step-btn-icon-text">
 								<span>1</span>
-								<div class="step-btn-icon float-left position-relative pt-3">
-									<img src="assets/img/bt1.png" class="img-fluid"  width="120" alt="">
+								<div class="step-btn-icon float-left position-relative  p-3">
+									<img src="assets/img/bt1.png" class="fix-image " width="120" alt="">
 								</div>
 								<div class="step-btn-text">
 									<h2 class="text-uppercase">Intership Type</h2>
@@ -58,8 +112,8 @@
 						<li class="multisteps-form__progress-btn">
 							<div class="step-btn-icon-text">
 								<span>2</span>
-								<div class="step-btn-icon float-left position-relative">
-									<img class="fix-image" src="assets/img/bt2.png" alt="">
+								<div class="step-btn-icon float-left position-relative p-2">
+									<img class="fix-image rounded-circle" src="assets/img/user7-128x128.jpg" alt="">
 								</div>
 								<div class="step-btn-text">
 									<h2 class="text-uppercase">Send Details</h2>
@@ -81,6 +135,9 @@
 						</li>
 					</ul>
 				</div>
+
+
+				<!-- content -->
 				<div class="step-inner-content clearfix position-relative">
 					<span class="bg-shape"></span>
 					<form class="multisteps-form__form" action="https://jthemes.net/themes/html/BeWizard/JobApplication/JobV.1/action.php" id="wizard" method="POST" enctype="multipart/form-data">
@@ -101,9 +158,52 @@
 											<p>Both program provide different value and require different skils </p>
 										</div>
 
+										<div class="row mt-2 justify-content-center align-content-center">
+											<div class="col-md-6 col-sm-8 my-3">
+												<div class="inner">
+													<input type="radio" name="job_title" value="Beginner" class="j-checkbox c-box" checked>
+													<div class="card int-type border-lg p-5 ">
+														<div class="text-center"> 
+															<img src="assets/img/beginner.jfif" height="200px" alt="" srcset="">
+															<h1 class="mt-2">Beginner</h1>
+															<span class="need-job-text">
+															<span data-bs-toggle="collapse" data-bs-target="#beginner" class="link text-capitalize need-job-text">
+																	Who is Beginner?
+																</span>
+		
+																<div id="beginner" class="collapse ">
+																	<p class="">No Previous Exprienced Needed</p>
+																</div>
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div class="col-md-6 col-sm-8 my-3">
+												<div class="inner">
+													<input type="radio" name="job_title" value="Beginner" class="j-checkbox c-box" checked>
+													<div class="card int-type border-lg p-5 ">
+														<div class="text-center"> 
+															<img src="assets/img/beginner.jfif" alt=""  srcset="">
+															<h1 class="mt-2">Advance</h1>
+															<span class="need-job-text">
+															<span data-bs-toggle="collapse" data-bs-target="#advance" class="link text-capitalize need-job-text">
+																	Who is Advance?
+																</span>
+		
+																<div id="advance" class="collapse ">
+																	<p class="">No Previous Exprienced Needed</p>
+																</div>
+															</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 										
 										<div id="need-job-slide-id" class="need-job-slide owl-carousel">
-											<label class="need-job-icon-text text-center">
+											<!-- <label class="need-job-icon-text text-center">
 												<input type="radio" name="job_title" value="Ux designer label" class="j-checkbox" checked>
 												<span class="need-job-text-inner">
 													<span class="checkbox-circle-mark position-absolute"> </span>
@@ -112,15 +212,11 @@
 													</span>
 													<span class="need-job-text">
 														<span class="text-uppercase need-job-title">Beginner</span>
-														<span data-bs-toggle="collapse" data-bs-target="#beginner" class="link text-capitalize need-job-text">No Previous Exprienced Needed</span>
-<!-- 
-														<div id="beginner" class="collapse ">
-															<p class="">Beginner Intership details later</p>
-														</div> -->
+														
 													</span>
 												</span>
-											</label>
-											<label class="need-job-icon-text text-center">
+											</label> -->
+											<!-- <label class="need-job-icon-text text-center">
 												<input type="radio" name="job_title" value="Front Developer" class="j-checkbox">
 												<span class="need-job-text-inner">
 													<span class="checkbox-circle-mark position-absolute"> </span>
@@ -129,17 +225,15 @@
 													</span>
 													<span class="need-job-text">
 														<span class="text-uppercase need-job-title">Advance</span>
-														<span data-bs-toggle="collapse" data-bs-target="#advance" class="link text-capitalize need-job-text">Opportunity to Work On advance Project. </span>
-
-														<!-- <div id="advance" class="collapse ">
-															<p class="">Beginner Intership details later</p>
-														</div> -->
+										
 													</span>
 												</span>
 											
-											</label>
+											</label> -->
 									
 										</div>
+
+
 									</div>
 									<div class="actions">
 										<ul>
