@@ -37,7 +37,7 @@ Last change:    00/00/00
 					infinite: true,
 					autoHeight: true,
 					autoplay: false,
-					navText:["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
+					// navText:["<i class='fas fa-arrow-left'></i>","<i class='fas fa-arrow-right'></i>"],
 					smartSpeed: 1000,
 					responsive:{
 						0:{

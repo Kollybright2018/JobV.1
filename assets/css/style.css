@@ -500,6 +500,8 @@ h6 {
   margin: 0 auto;
   max-width: 1000px;
   padding: 80px 0px 115px;
+  display: flex;
+  justify-content: center ;
 }
 .wizard-inner-box .need-job-slide .owl-nav .owl-next,
 .wizard-inner-box .need-job-slide .owl-nav .owl-prev {
@@ -533,7 +535,7 @@ h6 {
 }
 .wizard-inner-box .need-job-icon-text .need-job-text-inner {
   width: 310px;
-  height: 300px;
+  height: 50%;
   background-color: #fff;
   display: block;
   padding-top: 40px;
