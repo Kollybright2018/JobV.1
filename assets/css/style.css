@@ -257,7 +257,7 @@ h6 {
   display: block;
 }
 .wizard-content-1 .steps li.js-active.current .step-btn-icon-text .step-btn-text h2 {
-  color: #4288c8;
+  color: #fdfdfd;
 }
 .wizard-content-1 .steps li.js-active.current:last-child .step-btn-icon-text:after {
   display: none;
@@ -307,13 +307,13 @@ h6 {
 }
 .step-btn-icon-text .step-btn-icon .fix-image {
   position: relative;
-  left: -16px;
+  left: -10px;
   top: -3px;
 }
 .step-btn-icon-text .step-btn-icon .fix-image-2 {
   position: relative;
-  left: 0px;
-  top: -8px;
+  left: -5px;
+  top: -1px;
 }
 .step-btn-icon-text .step-btn-icon:before {
   left: -9px;
@@ -904,6 +904,7 @@ h6 {
 @media screen and (max-width: 1800px) {
   .wizard-progress {
     left: -58%;
+    /* top: 60%; */
   }
 
   .wrapper {
@@ -1117,7 +1118,7 @@ h6 {
 }
 @media screen and (max-width: 580px) {
   .step-btn-icon-text .step-btn-icon {
-    display: none;
+    /* display: none; */
   }
 
   .step-btn-icon-text .step-btn-text {
