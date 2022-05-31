@@ -46,6 +46,9 @@
 .req-container{
     /* background-color: #4288c8; */
 }
+.cli{
+    cursor: pointer;
+}
 @media screen and (max-width: 290px) {
     .def{
         display: flex;
