@@ -49,6 +49,11 @@
 .cli{
     cursor: pointer;
 }
+
+.btn-primary{
+    color: white !important;
+    background-color: #4288c8 !important;
+}
 @media screen and (max-width: 290px) {
     .def{
         display: flex;
