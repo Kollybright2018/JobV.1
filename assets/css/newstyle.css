@@ -19,8 +19,8 @@
     color: white;
 }
 .blue-cir{
-    width: 80px;
-    height: 80px;
+    width: 80%;
+    height: 80%;
     border-radius: 25px;
     background-color: #4288c8;
     padding: 8px;
@@ -36,7 +36,26 @@
 }
 .def-icon{
     width: 20%;
+    margin: 0 5%;
 }
 .def-text{
-    width: 80%;
+    margin: 0 5%;
+    width: 50%;
+}
+
+.req-container{
+    /* background-color: #4288c8; */
+}
+@media screen and (max-width: 290px) {
+    .def{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* .def-icon {
+        margin: 0 10%;
+    } */
+    .def-text{
+        margin: 10% 10%;
+    }
 }
