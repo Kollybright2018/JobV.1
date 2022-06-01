@@ -19,11 +19,12 @@
     color: white;
 }
 .blue-cir{
-    width: 80%;
-    height: 80%;
+    /* width: 20px;
+    height: 20px;
     border-radius: 25px;
-    background-color: #4288c8;
-    padding: 8px;
+    display: inline-block;
+    background-color: #4288c8; */
+    /* padding: 8px; */
 }
 
 .blue-cir i{
@@ -43,9 +44,6 @@
     width: 50%;
 }
 
-.req-container{
-    /* background-color: #4288c8; */
-}
 .cli{
     cursor: pointer;
 }

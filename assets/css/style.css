@@ -1117,9 +1117,9 @@ h6 {
   }
 }
 @media screen and (max-width: 580px) {
-  .step-btn-icon-text .step-btn-icon {
+  /* .step-btn-icon-text .step-btn-icon { */
     /* display: none; */
-  }
+  /* } */
 
   .step-btn-icon-text .step-btn-text {
     margin: 0px 10px;
